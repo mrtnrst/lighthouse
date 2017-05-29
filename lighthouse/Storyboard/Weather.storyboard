@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SPH-mJ-tSt">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather-->
+        <scene sceneID="kTA-py-lho">
+            <objects>
+                <viewController title="Weather" id="SPH-mJ-tSt" customClass="Weather" customModule="lighthouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RW7-dm-IKo"/>
+                        <viewControllerLayoutGuide type="bottom" id="i3K-1K-sAQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="weatherView" id="sKt-pA-cwM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksk-kE-7Ot">
+                                <rect key="frame" x="20" y="416" width="374" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="lHn-ef-UwB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kn4-vk-xXa">
+                                <rect key="frame" x="20" y="484" width="200" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="DMy-s2-mpd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFE-hY-I8E">
+                                <rect key="frame" x="20" y="602" width="374" height="80"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QrW-Re-hy4">
+                                <rect key="frame" x="138" y="48" width="256" height="230"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ºF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80a-BR-3OX">
+                                <rect key="frame" x="314" y="484" width="60" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="G0U-ud-uXY"/>
+                                    <constraint firstAttribute="width" constant="60" id="Van-S8-eSd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15651500225067139" green="0.16868624091148376" blue="0.16873574256896973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QrW-Re-hy4" firstAttribute="trailing" secondItem="sKt-pA-cwM" secondAttribute="trailingMargin" id="0FH-F4-jOo"/>
+                            <constraint firstItem="ksk-kE-7Ot" firstAttribute="leading" secondItem="kn4-vk-xXa" secondAttribute="leading" id="4PD-nt-a5J"/>
+                            <constraint firstItem="QrW-Re-hy4" firstAttribute="top" secondItem="RW7-dm-IKo" secondAttribute="bottom" constant="28" id="4T2-Rv-ZUR"/>
+                            <constraint firstItem="QFE-hY-I8E" firstAttribute="trailing" secondItem="ksk-kE-7Ot" secondAttribute="trailing" id="A3L-E0-d1O"/>
+                            <constraint firstItem="QrW-Re-hy4" firstAttribute="trailing" secondItem="QFE-hY-I8E" secondAttribute="trailing" id="AMX-OL-BKU"/>
+                            <constraint firstItem="QrW-Re-hy4" firstAttribute="leading" secondItem="sKt-pA-cwM" secondAttribute="leadingMargin" constant="143" id="BtT-15-OyJ">
+                                <variation key="heightClass=regular" constant="118"/>
+                            </constraint>
+                            <constraint firstItem="80a-BR-3OX" firstAttribute="top" secondItem="QFE-hY-I8E" secondAttribute="bottom" constant="-198" id="Fm2-hh-pTq"/>
+                            <constraint firstItem="ksk-kE-7Ot" firstAttribute="top" secondItem="QrW-Re-hy4" secondAttribute="bottom" constant="124" id="I2z-E9-QeQ">
+                                <variation key="heightClass=regular" constant="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="138"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="80a-BR-3OX" secondAttribute="trailing" constant="86" id="L2r-h3-5wE">
+                                <variation key="heightClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="QFE-hY-I8E" firstAttribute="top" secondItem="QrW-Re-hy4" secondAttribute="bottom" constant="310" id="kbl-eH-Npx">
+                                <variation key="heightClass=regular" constant="216"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="324"/>
+                            </constraint>
+                            <constraint firstItem="QFE-hY-I8E" firstAttribute="leading" secondItem="ksk-kE-7Ot" secondAttribute="leading" id="nKA-ps-w0M"/>
+                            <constraint firstItem="i3K-1K-sAQ" firstAttribute="top" secondItem="80a-BR-3OX" secondAttribute="bottom" constant="177" id="o2O-sz-Anl"/>
+                            <constraint firstItem="QFE-hY-I8E" firstAttribute="leading" secondItem="sKt-pA-cwM" secondAttribute="leadingMargin" id="rKF-zC-QEg"/>
+                            <constraint firstItem="kn4-vk-xXa" firstAttribute="top" secondItem="ksk-kE-7Ot" secondAttribute="bottom" constant="8" id="sJS-jj-elg"/>
+                            <constraint firstItem="i3K-1K-sAQ" firstAttribute="top" secondItem="kn4-vk-xXa" secondAttribute="bottom" constant="142" id="t0m-E9-xXj"/>
+                            <constraint firstItem="kn4-vk-xXa" firstAttribute="top" secondItem="80a-BR-3OX" secondAttribute="top" id="xGe-VR-ghg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="city" destination="ksk-kE-7Ot" id="VEU-92-GVm"/>
+                        <outlet property="icon" destination="QrW-Re-hy4" id="gjq-hq-o1Q"/>
+                        <outlet property="summary" destination="QFE-hY-I8E" id="jpe-V5-oiL"/>
+                        <outlet property="temp" destination="kn4-vk-xXa" id="3ld-Is-maV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1CD-pO-xuA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="136.95652173913044"/>
+        </scene>
+    </scenes>
+</document>

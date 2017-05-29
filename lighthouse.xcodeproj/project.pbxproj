@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B11DD521EBE9D5B0077FE8A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11DD511EBE9D5B0077FE8A /* Router.swift */; };
+		5B11DD591EBEB2B20077FE8A /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11DD581EBEB2B20077FE8A /* Serialization.swift */; };
 		5B442CFB1EBE44E90095E3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B442CFA1EBE44E90095E3DC /* AppDelegate.swift */; };
-		5B442CFD1EBE44E90095E3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B442CFC1EBE44E90095E3DC /* ViewController.swift */; };
-		5B442D001EBE44E90095E3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B442CFE1EBE44E90095E3DC /* Main.storyboard */; };
 		5B442D021EBE44E90095E3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B442D011EBE44E90095E3DC /* Assets.xcassets */; };
 		5B442D051EBE44E90095E3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B442D031EBE44E90095E3DC /* LaunchScreen.storyboard */; };
 		5B442D101EBE44E90095E3DC /* lighthouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B442D0F1EBE44E90095E3DC /* lighthouseTests.swift */; };
 		5B442D1B1EBE44E90095E3DC /* lighthouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B442D1A1EBE44E90095E3DC /* lighthouseUITests.swift */; };
+		5B84F1C81EBE5377004B4282 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B84F1C71EBE5377004B4282 /* Weather.storyboard */; };
+		5B84F1CA1EBE6438004B4282 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84F1C91EBE6438004B4282 /* Weather.swift */; };
+		5B9C52931EDC917400B73E4D /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C52921EDC917400B73E4D /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B11DD511EBE9D5B0077FE8A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Router.swift; path = API/Router.swift; sourceTree = "<group>"; };
+		5B11DD581EBEB2B20077FE8A /* Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serialization.swift; path = API/Serialization.swift; sourceTree = "<group>"; };
 		5B442CF71EBE44E90095E3DC /* lighthouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lighthouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B442CFA1EBE44E90095E3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B442CFC1EBE44E90095E3DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B442CFF1EBE44E90095E3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B442D011EBE44E90095E3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B442D041EBE44E90095E3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B442D061EBE44E90095E3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		5B442D161EBE44E90095E3DC /* lighthouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lighthouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B442D1A1EBE44E90095E3DC /* lighthouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lighthouseUITests.swift; sourceTree = "<group>"; };
 		5B442D1C1EBE44E90095E3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B84F1C71EBE5377004B4282 /* Weather.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Weather.storyboard; path = Storyboard/Weather.storyboard; sourceTree = "<group>"; };
+		5B84F1C91EBE6438004B4282 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = Views/Weather.swift; sourceTree = "<group>"; };
+		5B9C52921EDC917400B73E4D /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Icon.swift; path = Helpers/Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B11DD501EBE9CAE0077FE8A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5B11DD511EBE9D5B0077FE8A /* Router.swift */,
+				5B11DD581EBEB2B20077FE8A /* Serialization.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		5B442CEE1EBE44E90095E3DC = {
 			isa = PBXGroup;
 			children = (
-				5B442CF91EBE44E90095E3DC /* lighthouse */,
+				5B442CF91EBE44E90095E3DC /* Lighthouse */,
 				5B442D0E1EBE44E90095E3DC /* lighthouseTests */,
 				5B442D191EBE44E90095E3DC /* lighthouseUITests */,
 				5B442CF81EBE44E90095E3DC /* Products */,
@@ -94,16 +109,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B442CF91EBE44E90095E3DC /* lighthouse */ = {
+		5B442CF91EBE44E90095E3DC /* Lighthouse */ = {
 			isa = PBXGroup;
 			children = (
+				5B9C52911EDC916400B73E4D /* Helpers */,
+				5B11DD501EBE9CAE0077FE8A /* API */,
+				5B84F1C61EBE5302004B4282 /* Views */,
+				5B84F1C41EBE52F6004B4282 /* Storyboards */,
 				5B442CFA1EBE44E90095E3DC /* AppDelegate.swift */,
-				5B442CFC1EBE44E90095E3DC /* ViewController.swift */,
-				5B442CFE1EBE44E90095E3DC /* Main.storyboard */,
 				5B442D011EBE44E90095E3DC /* Assets.xcassets */,
 				5B442D031EBE44E90095E3DC /* LaunchScreen.storyboard */,
 				5B442D061EBE44E90095E3DC /* Info.plist */,
 			);
+			name = Lighthouse;
 			path = lighthouse;
 			sourceTree = "<group>";
 		};
@@ -125,6 +143,30 @@
 			path = lighthouseUITests;
 			sourceTree = "<group>";
 		};
+		5B84F1C41EBE52F6004B4282 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5B84F1C71EBE5377004B4282 /* Weather.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		5B84F1C61EBE5302004B4282 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B84F1C91EBE6438004B4282 /* Weather.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5B9C52911EDC916400B73E4D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B9C52921EDC917400B73E4D /* Icon.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +177,7 @@
 				5B442CF31EBE44E90095E3DC /* Sources */,
 				5B442CF41EBE44E90095E3DC /* Frameworks */,
 				5B442CF51EBE44E90095E3DC /* Resources */,
+				5B11DD571EBEA2220077FE8A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,8 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B442D051EBE44E90095E3DC /* LaunchScreen.storyboard in Resources */,
+				5B84F1C81EBE5377004B4282 /* Weather.storyboard in Resources */,
 				5B442D021EBE44E90095E3DC /* Assets.xcassets in Resources */,
-				5B442D001EBE44E90095E3DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +297,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B11DD571EBEA2220077FE8A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B442CF31EBE44E90095E3DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B442CFD1EBE44E90095E3DC /* ViewController.swift in Sources */,
+				5B11DD591EBEB2B20077FE8A /* Serialization.swift in Sources */,
+				5B84F1CA1EBE6438004B4282 /* Weather.swift in Sources */,
+				5B11DD521EBE9D5B0077FE8A /* Router.swift in Sources */,
+				5B9C52931EDC917400B73E4D /* Icon.swift in Sources */,
 				5B442CFB1EBE44E90095E3DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +359,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B442CFE1EBE44E90095E3DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B442CFF1EBE44E90095E3DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B442D031EBE44E90095E3DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,11 +469,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = lighthouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.builtby.lighthouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrtnrst.wthrdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,11 +484,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = lighthouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.builtby.lighthouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrtnrst.wthrdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +568,7 @@
 				5B442D211EBE44E90095E3DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B442D221EBE44E90095E3DC /* Build configuration list for PBXNativeTarget "lighthouseTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +577,7 @@
 				5B442D241EBE44E90095E3DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B442D251EBE44E90095E3DC /* Build configuration list for PBXNativeTarget "lighthouseUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +586,7 @@
 				5B442D271EBE44E90095E3DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
